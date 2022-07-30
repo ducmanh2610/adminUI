@@ -1,0 +1,152 @@
+.admin-form {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: stretch;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.admin-bg {
+    background-image: url(../images/bg-tech.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.orange-color {
+    color: rgb(255,70,5);
+}
+
+a.orange-color:hover {
+    color: rgb(170, 50, 6);
+}
+
+.orange-color-bg {
+    background-color: rgb(255,70,5);
+}
+
+.orange-color-border {
+    border: 1px solid rgb(255,70,5);
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+}
+
+.orange-color-border:hover {
+    border: 1px solid transparent;
+    background-color:  rgb(255,70,5);
+    color: white;
+    font-weight: 600;
+    transition: fadeIn 1s;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.admin-form img {
+    width: 50%;
+}
+
+/* dashboard */
+
+.dashboard-nav {
+    display: flex;
+    background-color: rgb(38,38,38);
+    color: white;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.dashboard-nav-left, .dashboard-nav-right {
+    display: flex;
+}
+
+.dashboard-nav img {
+    width: 60%;
+}
+
+.dashboard-nav span{
+    padding: 0 10px;
+}
+
+.dashboard-nav span i {
+    font-size: 24px;
+}
+
+/* navbar */
+.dashboard-main-right {
+    display: flex;
+    color: white;
+    line-height: 28px;
+}
+
+.dashboard-menu-left {
+    color: white;
+    line-height: 34px;
+    position: fixed;
+    left: 1%;
+    top: 10%;
+}
+
+.dashboard-main {
+    padding: 10px;
+    display: flex;
+    color: white;
+}
+
+.dashboard-menu-left span{
+    padding: 0 10px;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.dashboard-menu-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashborad-tab-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashborad-tab-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashborad-tab-digit {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashborad-tab-digit {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashborad-tab-digit span {
+    padding: 0 10px;
+}
+
+.dashboard-tab-wrapper {
+    border: 1px solid white;
+    padding: 10px;
+}
